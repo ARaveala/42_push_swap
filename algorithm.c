@@ -67,9 +67,9 @@ void	radixish(t_node **stack_a, t_node **stack_b, t_attic box)
 	int	i;
 	int	x;
 	int	size;
-	int	c;
+//	int	c;
 
-	c = box.count;
+//	c = box.count;
 	i = 0;
 	while (i < box.count && (check_sorted(*stack_a) != 0))
 	{
@@ -89,9 +89,9 @@ void	radixish(t_node **stack_a, t_node **stack_b, t_attic box)
 
 t_node	send(t_node **stack_a, t_node **stack_b, t_attic box)
 {
-	int	x;
+//	int	x;
 
-	x = 0;
+//	x = 0;
 	(*stack_a)->head = *stack_a;
 	if (check_sorted(*stack_a) == -1)
 	{

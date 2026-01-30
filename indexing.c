@@ -69,10 +69,10 @@ int	find_next(t_node **stack, t_attic box)
 void	indexing(t_node **stack, t_attic box)
 {
 	t_node	*tmp;
-	int		big;
+//	int		big;
 
 	tmp = (*stack);
-	big = find_biggest(stack, box);
+//	big = find_biggest(stack, box);
 	box.i = box.count - 1;
 	box.x = 0;
 	while (box.i > 0)
